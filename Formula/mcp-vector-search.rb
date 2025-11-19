@@ -11,7 +11,7 @@ class McpVectorSearch < Formula
 
   def install
     virtualenv_create(libexec, "python3.11")
-    system libexec/"bin/pip", "install", "--no-cache-dir", "."
+    system libexec/"bin/pip", "install", "--no-cache-dir", buildpath
     bin.install_symlink libexec/"bin/mcp-vector-search"
   end
 
