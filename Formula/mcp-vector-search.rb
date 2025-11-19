@@ -10,8 +10,8 @@ class McpVectorSearch < Formula
   depends_on "python@3.11"
 
   def install
-    virtualenv_create(libexec, "python3.11")
-    system libexec/"bin/pip", "install", "--no-cache-dir", buildpath
+    venv = virtualenv_create(libexec, "python3.11")
+    venv.pip_install buildpath
     bin.install_symlink libexec/"bin/mcp-vector-search"
   end
 
