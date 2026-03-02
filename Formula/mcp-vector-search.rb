@@ -3,8 +3,8 @@ class McpVectorSearch < Formula
 
   desc "CLI-first semantic code search with MCP integration"
   homepage "https://github.com/bobmatnyc/mcp-vector-search"
-  url "https://files.pythonhosted.org/packages/86/dc/e2a0e6e38cb2e2e4a4a030645360900348bc59a2c5336d9d89d95847e1e4/mcp_vector_search-3.0.54.tar.gz"
-  sha256 "cb8eb94cc59d2d9047c2a7d1f3abb5bbf178d9120ce30c0b0d5525fbe38ee4a4"
+  url "https://files.pythonhosted.org/packages/93/98/5952e6962fb8d2663fe44838825a91db8c4d8496617ca505d230d3630884/mcp_vector_search-3.0.56.tar.gz"
+  sha256 "8ac907891f8b1ed4bfa85c5865f0956c8bf94ebf1afab2b5edb9c8066f6ef0e3"
   license "MIT"
 
   depends_on "python@3.11"
